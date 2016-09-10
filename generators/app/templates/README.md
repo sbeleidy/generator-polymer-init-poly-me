@@ -13,19 +13,24 @@ All you need to do to edit, is modify the `me.json` file in the root directory. 
 1. Run `polymer serve`
 1. Go to [http://localhost:8080](http://localhost:8080)
 
+## Building
+
+Run `polymer build`
+
 ## Deploying to FireBase
 
-### Do this once
+### Setup (Do this once)
 
 1. If you don't have firebase tools, run `npm install -g firebase-tools`
 1. Run `firebase login`
 1. Run `firebase init`
 1. Select `Hosting` only. You can deselect Database by hitting spacebar
 1. Select a project you want to use or create a new one
+1. For the public directory enter `build/bundled` - you can find out more about this on the [polymer site](https://www.polymer-project.org/1.0/start/toolbox/deploy#deploy-with-firebase)
 
 #### Whenever you want to deploy
 
-You can run `firebase deploy` from the project directory.
+You can run `firebase deploy` from the project directory. Make sure you've built your project before deploying (run `polymer build`).
 
 #### Automatically deploying with Travis CI & FireBase
 

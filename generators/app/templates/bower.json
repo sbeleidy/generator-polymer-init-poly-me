@@ -1,0 +1,9 @@
+{
+  "name": "<%= yourName %>",
+  "description": "<%= yourName %>'s poly-me site",
+  "main": "index.html",
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "poly-me": "*"
+  }
+}

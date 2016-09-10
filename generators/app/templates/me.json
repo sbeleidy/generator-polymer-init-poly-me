@@ -1,0 +1,105 @@
+{
+  "content": {
+    "name": "<%= yourName %>",
+    "profileImage": "images/profile.jpg",
+    "backgroundImage": "images/background.jpeg",
+    "position": "<%= yourPosition %>",
+    "location": "<%= yourLocation %>",
+    "social": {
+      "title": "",
+      "profiles": [
+        {
+          "network": "twitter",
+          "link": "https://twitter.com/<%= yourTwitter %>"
+        },
+        {
+          "network": "github",
+          "link": "https://github.com/<%= yourGitHub %>"
+        },
+        {
+          "network": "linkedin",
+          "link": "https://linkedin.com/in/<%= yourLinkedIn %>"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "title": "Content",
+        "type": "content",
+        "content": "This is a very long message about me.",
+        "sections": [
+          {
+            "title": "Title 1",
+            "image": "",
+            "content": "This is the content for title 1"
+          },
+          {
+            "title": "Title 2",
+            "image": "",
+            "content": "This is the content for title 2"
+          },
+          {
+            "title": "Title 3",
+            "image": "",
+            "content": "This is the content for title 2"
+          }
+        ]
+      },
+      {
+        "title": "Cards",
+        "type": "cards",
+        "content": "This is a section heading before the cards",
+        "sections": [
+          {
+            "title": "Title 1",
+            "content": "This is the content of title 1. The link takes you to google.",
+            "link": "https://google.com"
+          },
+          {
+            "title": "Title 2",
+            "content": "This is the content for title 2"
+          },
+          {
+            "title": "Title 3",
+            "content": "This is the content for title 3"
+          }
+        ]
+      },
+      {
+        "title": "Cards w/ Images",
+        "type": "cards",
+        "content": "This is a section heading before the cards",
+        "sections": [
+          {
+            "title": "Title 1",
+            "image": "images/card-1.jpg",
+            "content": "This is the content for title 1",
+            "link": "https://Title.com",
+            "linkButton": "Go!"
+          },
+          {
+            "title": "Title 2",
+            "image": "images/card-2.jpg",
+            "content": "This is the content for title 2"
+          },
+          {
+            "title": "Title 3",
+            "image": "images/card-3.jpg",
+            "content": "This is the content for title 3"
+          }
+        ]
+      },
+      {
+        "title": "Contact",
+        "type": "contact",
+        "content": "This is a section heading before the cards",
+        "email": "<%= yourEmail %>",
+        "subject": "Poly-me contact form submission"
+      }
+    ]
+  },
+  "settings": {
+    "primaryColor": "<%= yourPrimaryColor %>"
+  }
+
+}

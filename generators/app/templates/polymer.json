@@ -1,0 +1,16 @@
+{
+  "entrypoint": "index.html",
+  "shell": "bower_components/poly-me.html",
+  "fragments": [
+  ],
+  "sources": [
+    "src/**/*",
+    "images/**/*",
+    "manifest.json",
+    "me.json",
+    "bower.json"
+  ],
+  "includeDependencies": [
+    "bower_components/**/*"
+  ]
+}

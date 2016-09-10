@@ -27,6 +27,7 @@ Run `polymer build`
 1. Select `Hosting` only. You can deselect Database by hitting spacebar
 1. Select a project you want to use or create a new one
 1. For the public directory enter `build/bundled` - you can find out more about this on the [polymer site](https://www.polymer-project.org/1.0/start/toolbox/deploy#deploy-with-firebase)
+1. Select `y` for rewriting all urls to `index.html`
 
 #### Whenever you want to deploy
 
